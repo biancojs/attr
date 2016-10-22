@@ -60,7 +60,7 @@ export function set(els, name, value) {
  * Get any attribute from a single or a list of DOM nodes
  * @param   { HTMLElement|NodeList|Array } els   - DOM node/s to parse
  * @param   { String|Array }               name  - name or list of attributes to get
- * @returns { Array|String } list the attributes found
+ * @returns { Array|String } list of the attributes found
  *
  * @example
  *
@@ -106,7 +106,7 @@ export function remove(els, name) {
  * Set any attribute on a single or a list of DOM nodes
  * @param   { HTMLElement|NodeList|Array } els   - DOM node/s to parse
  * @param   { String|Array }               name  - name or list of attributes to detect
- * @returns { Boolean|Array } true or false or an array boolean values
+ * @returns { Boolean|Array } true or false or an array of boolean values
  * @example
  *
  * import { has } from 'bianco.attr'

@@ -94,7 +94,7 @@ get(img, ['width', 'height']) // => ['200', '300']
 get([img1, img2], ['width', 'height']) // => [['200', '300'], ['500', '200']]
 ```
 
-Returns **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) \| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String))** list the attributes found
+Returns **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) \| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String))** list of the attributes found
 
 ### remove
 
@@ -144,4 +144,4 @@ has(img, ['width', 'height']) // => [false, false]
 has([img1, img2], ['width', 'height']) // => [[false, false], [false, false]]
 ```
 
-Returns **([Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) \| [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array))** true or false or an array boolean values
+Returns **([Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) \| [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array))** true or false or an array of boolean values
