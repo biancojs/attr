@@ -1,5 +1,5 @@
 {
-  "name": "bianco.@",
+  "name": "bianco.attr",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,7 @@
     "prepublish": "npm run build && npm test",
     "lint": "eslint index.next.js test.js rollup.config.js",
     "build": "rollup -c",
+    "doc": "documentation readme index.next.js -s API",
     "test": "npm run lint && mocha test.js"
   },
   "files": [
@@ -29,7 +30,7 @@
   },
   "homepage": "https://github.com/biancojs/@#readme",
   "devDependencies": {
-    "jsdom": "9.5.0",
+    "jsdom": "9.8.0",
     "jsdom-global": "2.1.0"
   },
   "dependencies": {
