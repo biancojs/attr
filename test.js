@@ -1,9 +1,6 @@
 require('jsdom-global')()
 const assert = require('assert')
 const { set, get, remove, has } = require('./')
-const body = document.body
-const $ = document.querySelectorAll.bind(document)
-
 
 describe('Bianco attr', function() {
 
