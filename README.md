@@ -1,7 +1,6 @@
 # bianco.attr
 
-[![Build Status][travis-image]][travis-url]
-
+[![Build Status][ci-image]][ci-url]
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
@@ -22,9 +21,8 @@ remove(img, 'width')
 get(img, 'width') // => null
 ```
 
-[travis-image]: https://img.shields.io/travis/biancojs/attr.svg?style=flat-square
-
-[travis-url]: https://travis-ci.org/biancojs/attr
+[ci-image]:https://img.shields.io/github/workflow/status/biancojs/attr/test?style=flat-square
+[ci-url]:https://github.com/biancojs/attr/actions
 
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
 
